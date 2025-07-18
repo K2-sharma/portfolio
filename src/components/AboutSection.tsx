@@ -122,10 +122,6 @@ const AboutSection = () => {
                 <Mail className="w-5 h-5 mr-2" />
                 kannukrishnasharma@gmail.com
               </a>
-              <a href="tel:+918510017521" className="flex items-center text-text-muted hover:text-text transition-colors duration-300">
-                <Phone className="w-5 h-5 mr-2" />
-                +91 85100 17521
-              </a>
               <div className="flex items-center text-text-muted">
                 <MapPin className="w-5 h-5 mr-2" />
                 Delhi, India

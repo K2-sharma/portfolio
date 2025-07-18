@@ -25,15 +25,31 @@ const projects = [
     year: '2024-25'
   },
   {
-    id: 3,
-    title: 'Creative Direction',
-    category: 'Management',
-    image: 'quantum.gif',
-    description: 'As the director and team lead of "The Quantum Breach" an AI-powered cinematic trailer built in After Effects. I brought together vision, team synergy, and precision execution to turn concept into impact. From directing visuals to managing workflows, I led every step with a narrative-first mindset, blending creativity and strategy to deliver a powerful, immersive story that reflects my strength in team leadership, direction, and goal-focused design.',
-    fullDescription: 'As the director and team lead of "The Quantum Breach" an AI-powered cinematic trailer built in After Effects. I brought together vision, team synergy, and precision execution to turn concept into impact. From directing visuals to managing workflows, I led every step with a narrative-first mindset, blending creativity and strategy to deliver a powerful, immersive story that reflects my strength in team leadership, direction, and goal-focused design.',
-    tools: ['Adobe Illustrator', 'Adobe Photoshop', 'Adobe After Effects', 'Discord'],
-    year: '2024'
-  },
+  id: 3,
+  title: 'Creative Direction',
+  category: 'Management',
+  image: 'quantum.gif',
+  description: 'As the director and team lead of "The Quantum Breach" an AI-powered cinematic trailer built in After Effects. I brought together vision, team synergy, and precision execution to turn concept into impact. From directing visuals to managing workflows, I led every step with a narrative-first mindset, blending creativity and strategy to deliver a powerful, immersive story that reflects my strength in team leadership, direction, and goal-focused design.',
+  fullDescription: (
+    <>
+      As the director and team lead of 'The Quantum Breach' an AI-powered cinematic trailer built in After Effects. I brought together vision, team synergy, and precision execution to turn concept into impact. From directing visuals to managing workflows, I led every step with a narrative-first mindset, blending creativity and strategy to deliver a powerful, immersive story that reflects my strength in team leadership, direction, and goal-focused design.
+      <br /><br />
+      <a 
+        href="https://www.youtube.com/watch?v=GomgZROTv64" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="text-accent hover:text-accent-light transition-colors duration-300 inline-flex items-center"
+      >
+        Watch the trailer here
+        <svg className="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+        </svg>
+      </a>
+    </>
+  ),
+  tools: ['Adobe Illustrator', 'Adobe Photoshop', 'Adobe After Effects', 'Discord'],
+  year: '2024'
+},
   {
     id: 4,
     title: 'Made for others',
